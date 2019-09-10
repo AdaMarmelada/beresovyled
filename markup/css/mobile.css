@@ -1,0 +1,326 @@
+@media screen and (max-width:767px) {
+
+    input, textarea {
+        padding: 24px 45px;
+    }
+     section a,
+     footer .header-contacts a {
+        color: #498aeb;
+        border-bottom: 1px dashed #498aeb;
+        padding-bottom: 2px;
+    }
+    p {
+        margin: 0 0 15px;
+    }
+
+    table {
+        font-size: 90%;
+    }
+
+    button + button {
+        margin-top: 10px;
+    }
+
+    body.main-page {
+        background-size: auto;
+        background-position: center top;
+    }
+    section {
+        padding: 50px 0;
+    }
+    section.mobile {
+        padding-bottom: 0;
+    }
+
+    .col-xs-24 {
+        width: 100%;
+    }
+
+    .col-xs-22 {
+        width: 91.6666%;
+    }
+
+    .col-xs-21 {
+        width: 87.5%;
+    }
+
+    .col-xs-20 {
+        width: 83.3333%;
+    }
+
+    .col-xs-19 {
+        width: 79.1666%;
+    }
+
+    .col-xs-18 {
+        width: 75%;
+    }
+
+    .col-xs-15 {
+        width: 62.5%;
+    }
+
+    .col-xs-13 {
+        width: 54.1666%;
+    }
+
+    .col-xs-12 {
+        width: 50%;
+    }
+
+    .col-xs-11 {
+        width: 45.8333%;
+    }
+
+    .col-xs-10 {
+        width: 41.6666%;
+    }
+
+    .col-xs-9 {
+        width: 37.5%;
+    }
+
+    .col-xs-8 {
+        width: 33.3333%;
+    }
+
+    .col-xs-7 {
+        width: 29.1666%;
+    }
+
+    .col-xs-6 {
+        width: 25%;
+    }
+
+    .col-xs-5 {
+        width: 20.8333%;
+    }
+
+    .col-xs-4 {
+        width: 16.6666%;
+    }
+
+    .col-xs-3 {
+        width: 12.5%;
+    }
+
+    .col-xs-2 {
+        width: 8.3333%;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .container {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+
+    .title-1 {
+        font-size: 190%;
+    }
+
+    .title-1 + * {
+        margin-top: 25px;
+    }
+
+    .title-2 {
+        font-size: 135%;
+    }
+
+    .title-3 {
+        font-size: 185%;
+    }
+    .tail.title-3  {
+        margin-top: 0;
+    }
+
+    .title-2 + *,
+    .title-3 + * {
+        margin-top: 15px;
+    }
+
+    .title-4 {
+        font-size: 170%;
+    }
+
+    .title-4 + * {
+        margin-top: 20px;
+    }
+    .title-5 {
+        font-size: 145%;
+    }
+    .title-6 {
+        font-size: 125%;
+    }
+    .title-6 + * {
+        margin-top: 15px;
+    }
+    .btn {
+
+    }
+
+    .container {
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    .logo-main img {
+        margin-bottom: 0;
+    }
+    .header-menu-popup {
+        background-color: #f4f4f4;
+        padding-bottom: 50px;
+        box-shadow: 0 0 10px 0px #00000030;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: left .3s;
+        z-index: 1;
+        width: 100%;
+    }
+    .header-menu-popup .logo-main img,
+    footer .logo-main img {
+        margin-bottom: 0;
+    }
+    .header-menu-popup .logo-tail::after,
+    footer .logo-tail::after {
+        border-bottom-color: #f4f4f4;
+    }
+    .header-menu-popup .header-menu-item,
+    footer .header-menu-item {
+        padding: 15px 0;
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .header-menu-popup .header-menu,
+    footer .header-menu {
+        margin-bottom: 40px;
+    }
+    .header-menu-popup .header-contacts {
+        margin-top: 40px;
+    }
+    .header-menu-popup.active {
+        left: 0;
+    }
+    .header-contacts-part + .header-contacts-part {
+        margin-top: 10px;
+    }
+    .header-contacts-part a + a {
+        margin-left: 10px;
+    }
+    .header-contacts .inform {
+        margin-top: 20px;
+    }
+    footer .header-contacts {
+        margin-bottom: 30px;
+    }
+
+    .label {
+        margin-top: 25px;
+    }
+    .product-icon {
+        margin-top: 25px;
+    }
+    .product-icon-item + .product-icon-item {
+        margin-top: 30px;
+    }
+    .product-icon-item img {
+        width: 118px;
+    }
+    .form {
+        padding: 35px 20px;
+        position: relative;
+    }
+    .form-item .title-6 {
+        margin: 0;
+    }
+    .form .course-descr {
+        margin-bottom: 20px;
+    }
+    .form small {
+        margin-top: 15px;
+    }
+    .product-icon-block3 .product-icon-item img {
+        width: 104px;
+    }
+    .img-block {
+        background-image: url("../images/banners/product-block2-mobile.png");
+        background-repeat: no-repeat;
+        height: 245px;
+        margin-top: 50px;
+    }
+    .card-list-item:not(:last-child) {
+        height: 430px;
+        position: relative;
+    }
+    .cards-item-descr {
+        padding: 40px 15px 0;
+    }
+    .cards-item-descr-txt {
+        margin: 55px 0;
+        padding: 0 30px;
+        position: relative;
+    }
+    .card-list-item .label {
+        background-color: #88e2f2;
+    }
+    .form-wrapper {
+        margin-top: 25px;
+    }
+    .card-wrapper {
+        position: relative;
+        padding-bottom: 0px;
+    }
+    .card-txt {
+      bottom: -97px;
+        padding: 0 20px;
+    }
+    .card-wrapper .icon-number {
+        bottom: 43px;
+    }
+    .card-wrapper {
+        margin-bottom: 130px;
+    }
+    .card-wrapper:nth-child(2) .icon-number {
+        left: unset;
+        right: 28px;
+    }
+    .card-wrapper-descr {
+        position: relative;
+    }
+    .citate {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .list-line li:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .question-form {
+        margin-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .course-list-item + .course-list-item,
+    .course-list-part + .course-list-part {
+        margin-top: 20px;
+    }
+    .advertisment img {
+        height: 39%;
+        bottom: -2px;
+        right: 11%;
+    }
+    .advertisment {
+        padding: 0;
+    }
+    .advertisment .label {
+        bottom: -20px;
+        right: 16%;
+    }
+    .form-dashed {
+        margin-top: 30px;
+        margin-bottom: 404px;
+        padding: 20px;
+    }
+
+}

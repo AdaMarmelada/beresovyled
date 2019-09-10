@@ -1,0 +1,220 @@
+@media screen and (min-width:768px) and (max-width:1248px) {
+
+    input, textarea {
+        padding: 19px 35px;
+    }
+
+    .col-md-24 {
+        width: 100%;
+    }
+
+    .col-md-22 {
+        width: 91.6666%;
+    }
+
+    .col-md-21 {
+        width: 87.5%;
+    }
+
+    .col-md-20 {
+        width: 83.3333%;
+    }
+
+    .col-md-19 {
+        width: 79.1666%;
+    }
+
+    .col-md-18 {
+        width: 75%;
+    }
+
+    .col-md-15 {
+        width: 62.5%;
+    }
+
+    .col-md-13 {
+        width: 54.1666%;
+    }
+
+    .col-md-12 {
+        width: 50%;
+    }
+
+    .col-md-11 {
+        width: 45.8333%;
+    }
+
+    .col-md-10 {
+        width: 41.6666%;
+    }
+
+    .col-md-9 {
+        width: 37.5%;
+    }
+
+    .col-md-8 {
+        width: 33.3333%;
+    }
+
+    .col-md-7 {
+        width: 29.1666%;
+    }
+
+    .col-md-6 {
+        width: 25%;
+    }
+
+    .col-md-5 {
+        width: 20.8333%;
+    }
+
+    .col-md-4 {
+        width: 16.6666%;
+    }
+
+    .col-md-3 {
+        width: 12.5%;
+    }
+
+    .col-md-2 {
+        width: 8.3333%;
+    }
+
+    .hidden-md {
+        display: none !important;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title-1 {
+        font-size: 205%;
+    }
+
+    .title-1 + * {
+        margin-top: 30px;
+    }
+
+    .title-2 {
+        font-size: 155%;
+    }
+
+    .title-3 {
+        font-size: 127.5%;
+    }
+    .tail.title-3  {
+        margin-top: 0;
+    }
+
+    .title-2 + *,
+    .title-3 + * {
+        margin-top: 15px;
+    }
+
+    .title-4 {
+        font-size: 110%;
+    }
+
+    .title-4 + * {
+        margin-top: 5px;
+    }
+
+    .title-7 {
+        font-size: 185%;
+    }
+    .title-7 + * {
+        margin-bottom: 30px;
+    }
+    .btn {
+        padding: 20px 35px;
+    }
+    .header-menu-popup {
+        background-color: #f4f4f4;
+        padding-bottom: 50px;
+        box-shadow: 0 0 10px 0px #00000030;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: left .3s;
+        z-index: 1;
+    }
+    .header-menu-popup .logo-main img,
+    footer .logo-main img {
+        margin-bottom: 0;
+    }
+    .header-menu-popup .logo-tail::after,
+    footer .logo-tail::after {
+        border-bottom-color: #f4f4f4;
+    }
+    .header-menu-popup .header-menu-item,
+    footer .header-menu-item {
+        padding: 15px 0;
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .header-menu-popup .header-menu,
+    footer .header-menu {
+        margin-bottom: 40px;
+    }
+    .header-menu-popup .header-contacts {
+        margin-top: 40px;
+    }
+    .header-menu-popup.active {
+        left: 0;
+    }
+    .header-contacts-part + .header-contacts-part {
+        margin-top: 10px;
+    }
+    .header-contacts-part a + a {
+        margin-left: 10px;
+    }
+    .header-contacts .inform {
+        margin-top: 20px;
+    }
+    footer .header-contacts {
+        margin-bottom: 30px;
+    }
+    .form {
+        padding: 25px 25px;
+    }
+    .form-wrapper {
+        margin: 15px 0 15px;
+    }
+    .cards-item-descr {
+        padding: 30px;
+    }
+    .inform-block.cards-item-descr {
+        padding: 0;
+    }
+    .card-wrapper {
+        position: relative;
+        padding-bottom: 80px;
+    }
+    .card-txt {
+    box-shadow: 0 -10px 10px 10px #fff;
+    }
+    .book .label {
+        left: 15%;
+    }
+    .question-form {
+        margin-top: 30px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .course-list-part {
+        margin-bottom: 30px;
+    }
+    .course-list-item::before {
+        height: 180px;
+    }
+    .advertisment img {
+        height: 60%;
+        bottom: 0;
+        right: 16%;
+    }
+    .advertisment .label {
+        bottom: 0;
+        right: 8%;
+    }
+}

@@ -1,0 +1,263 @@
+.icon{
+    position: relative;
+    display:inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition:.3s opacity;
+}
+.icon-socials,
+.icon-heart,
+.icon-check,
+.icon-number,
+.icon-gift {
+    width: 40px;
+    height: 40px;
+}
+.icon-heart,
+.icon-check,
+.icon-number,
+.icon-gift {
+    box-shadow: 0 0 10px 0px #00000030;
+}
+.icon-heart,
+.icon-check,
+.icon-gift {
+    border-radius: 100%;
+}
+.list .icon-heart,
+.icon-check {
+    margin-right: 20px;
+}
+.icon-socials:hover {
+    opacity: 0.5;
+}
+.icon-socials.vk {
+    background-image: url("../images/icons/socials/vk.png");
+}
+.icon-socials.ok {
+    background-image: url("../images/icons/socials/odnoklassniki.png");
+}
+.icon-socials.fb {
+    background-image: url("../images/icons/socials/facebook.png");
+}
+.icon-socials.tlg {
+    background-image: url("../images/icons/socials/telegram.png");
+}
+.icon-heart {
+    background-image: url("../images/icons/icon-heart.png");
+}
+.icon-check {
+    background-image: url("../images/icons/icon-check.png");
+}
+.icon-check .line {
+    border-bottom: 1px solid #98bb38;
+    position: absolute;
+    z-index: 3;
+}
+.icon-check .line::before {
+    content: '';
+    background-color: #98bb38;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -4px;
+    top: -2px;
+}
+.icon-number {
+    border: 4px solid #ffffff;
+    background-color: #95b835;
+    color: #ffffff;
+    border-radius: 100%;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.icon-ice-right,
+.icon-ice-top_left,
+.icon-ice-bottom_left {
+    position: absolute;
+}
+.icon-ice-right {
+    background-image: url("../images/icons/icon-ice1.png");
+    right: -30px;
+    top: -30px;
+    height: 65px;
+    width: 67px;
+}
+.card-wrapper-descr .icon-ice-right {
+    right: -20px;
+    top: 80px;
+    z-index: 3;
+}
+
+.icon-ice-top_left {
+    background-image: url("../images/icons/icon-ice2.png");
+    left: -85px;
+    bottom: 200px;
+    height: 40px;
+    width: 43px;
+}
+.card-wrapper-descr .icon-ice-top_left {
+    left: 53px;
+    bottom: -61px;
+    z-index: 3;
+}
+.icon-ice-bottom_left {
+    background-image: url("../images/icons/icon-ice3.png");
+    left: -50px;
+    bottom: 90px;
+    height: 63px;
+    width: 60px;
+}
+.icon-ice-moving {
+    background-image: url("../images/icons/icon-ice-moving.png");
+    left: 43px;
+    top: -61px;
+    height: 62px;
+    width: 70px;
+    z-index: 3;
+}
+.icon-leaf-moving {
+    background-image: url("../images/icons/icon-leaf-bottom-moving.png");
+    left: -50px;
+    bottom: 52px;
+    height: 38px;
+    width: 55px;
+}
+.form .icon-ice-top,
+.form .icon-leaf-top,
+.form .icon-leaf-bottom,
+.icon-leaf-moving,
+.icon-ice-moving,
+.icon-leaf-top-left,
+.icon-cite {
+    position: absolute;
+
+}
+.form .icon-leaf-top-left {
+    right: 10px;
+    top: -50px;
+    transform: rotate(71deg);
+}
+.form .icon-ice-top {
+    background-image: url("../images/icons/icon-ice2.png");
+    right: 10px;
+    top: -26px;
+    height: 40px;
+    width: 43px;
+    z-index: 3;
+}
+.form .icon-leaf-top {
+    background-image: url("../images/icons/icon-leaf-top.png");
+    height: 27px;
+    width: 40px;
+    right: -15px;
+    top: -14px;
+    z-index: 2;
+}
+.form .icon-leaf-bottom {
+    background-image: url("../images/icons/icon-leaf-bottom.png");
+    height: 46px;
+    width: 35px;
+    left: -7px;
+    bottom: -30px;
+    z-index: 2;
+}
+.cards-item-descr-txt .icon-ice-top_left {
+    right: 0px;
+    top: -40px;
+    height: 40px;
+    width: 43px;
+    left: unset;
+    bottom: unset;
+    z-index: 2;
+}
+.cards-item-descr-txt .icon-ice-left-bottom {
+    background-image: url("../images/icons/icon-ice-4.png");
+    height: 28px;
+    width: 26px;
+    left: 0px;
+    bottom: 25px;
+    z-index: 2;
+    position: absolute;
+}
+.card-list-item .icon-leaf-bottom {
+    height: 55px;
+    width: 30px;
+    right: 5px;
+    top: -30px;
+    transform: rotate(74deg);
+    left: unset;
+    bottom: unset;
+}
+.icon-leaf-bottom {
+    background-image: url("../images/icons/icon-leaf-bottom.png");
+    height: 76px;
+    width: 40px;
+    right: -158px;
+    top: 40px;
+    z-index: 4;
+}
+.icon-leaf-top-left {
+    background-image: url("../images/icons/icon-leaf-bottom.png");
+    height: 76px;
+    width: 40px;
+    right: 0px;
+    bottom: -152px;
+    z-index: 4;
+    transform: rotate(71deg);
+}
+.icon-gift {
+    background-image: url("../images/icons/icon-gift.png");
+}
+.icon-burger{
+    width: 18px;
+}
+.icon-burger > hr{
+    margin: 0;
+    padding: 0;
+    border:0;
+    width: 100%;
+    height: 2px;
+    background-color: #262000;
+    border-radius: 5px;
+    transition: width .3s;
+}
+.icon-burger > hr + hr{
+    margin-top: 7px;
+}
+.header-menu-popup .icon + .icon {
+    margin-left: 20px;
+}
+.icon-close{
+    position: relative;
+    width: 22px;
+    height: 22px;
+}
+.icon-close:before,
+.icon-close:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 2px;
+    transition: transform .3s;
+    background-color: #262000;
+}
+.icon-close:before {
+    transform: rotate(45deg);
+}
+.icon-close:after {
+    transform: rotate(-45deg);
+}
+.icon-cite {
+    background-image: url("../images/icons/citate.png");
+    height: 60px;
+    width: 66px;
+    top: 100px;
+    right: 50px;
+}

@@ -1,0 +1,468 @@
+html, body {
+    margin:0;padding:0;
+    overflow-x: hidden!important;
+}
+body {
+    position: relative;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    background: #fff;
+    color: #262000;
+}
+body.main-page {
+    background-image: url("../images/backgrounds/bkgrnd1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+* { box-sizing: border-box; }
+*:focus{ outline:none!important; }
+p { margin:0 0 20px; }
+a {
+    color: inherit;
+    transition: color .3s;
+    text-decoration:none;
+}
+a:hover {
+    color: #005a6a!important;
+}
+ul, ol {
+    margin:0 0 20px 20px;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    margin:0;
+    padding:0;
+}
+img { max-width:100%; max-height: 100%; }
+input, textarea, select, button{
+    font-size: 115%;
+    font-family: "Gotham Pro";
+}
+input, select, button{
+    line-height: 1;
+}
+input, textarea{
+    background-color: #fff;
+    color: #848282;
+    border: 1px solid #d2d2d2;
+    background-color: #f4f4f4;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 10px 0px #00000030;
+    transition: box-shadow 0.3s;
+}
+input.error, textarea.error, select.error{
+    border: 1px solid red;
+}
+input, select, textarea, button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
+button, input {
+    border-radius: 40px;
+}
+input {
+    padding: 30px 80px;
+}
+button{
+    cursor: pointer;
+    padding: 30px 5px;
+}
+
+.pf_regal_display_pro_ublack {
+    font-family: 'PF Regal Display Pro UBlack';
+    font-style: italic;
+}
+.pf_regal_display_pro {
+    font-family: 'PF Regal Display Pro';
+}
+
+.btn.green {
+    background-image: linear-gradient(#b4d24f,#709b19);
+    color: #fff;
+    box-shadow: 0 4px 0 #5f8414;
+    border: none;
+}
+.btn.green:hover,
+.course-list-item .btn:hover,
+.highlight .btn {
+    background-image: linear-gradient(#709b19, #b4d24f);
+    color: #fff;
+}
+small{
+    color: #262000;
+    font-size: 85%;
+    display: block;
+}
+section {
+    padding: 60px 0;
+}
+.underline {
+    border-bottom: 1px solid #262000;
+}
+.fx-align_center {
+    display:flex;
+    align-items: center;
+}
+.fx-align_start {
+    display:flex;
+    align-items: flex-start;
+}
+.fx-align_end {
+    display:flex;
+    align-items: flex-end;
+}
+.fx-align_baseline {
+    display:flex;
+    align-items: baseline;
+}
+.fx-align_stretch {
+    display:flex;
+    align-items: stretch;
+}
+.fx-align_content_space-between {
+    display:flex;
+    align-content: space-between
+}
+.fx-wrap {
+    flex-wrap: wrap;
+}
+.fx-text_align-center {
+    justify-content: center;
+}
+.fx-text_align-space_around {
+    justify-content: space-around;
+}
+.fx-text_align-space_between {
+    justify-content: space-between;
+}
+.fx-text_align-start {
+    justify-content: flex-start;
+}
+.fx-text_align-end {
+    justify-content: flex-end;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.align-left {
+    text-align: left;
+}
+.align_self-center {
+    align-self: center;
+}
+.container{
+
+    margin:0 auto;
+}
+
+.header p {
+    margin-bottom: 5px;
+}
+
+.logo {
+    position: relative;
+    background-color: #fff;
+
+}
+
+.logo-main {
+    padding: 25px 20px;
+    font-size: 75%;
+    text-align: center;
+    box-shadow: 0 0 10px 0px #00000030;
+}
+
+.logo-main img {
+    margin-bottom: 15px;
+}
+
+.logo-tail {
+    position: absolute;
+    background-color: #a9c855;
+    left: 10px;
+    right: 10px;
+    height: 10px;
+}
+
+.logo-tail::before,
+.logo-tail::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 0;
+    left: calc(50% - 20px);
+}
+
+.logo-tail::before {
+    border-bottom-color: #a9c855;
+    top: -10px;
+}
+
+.logo-tail::after {
+    border-bottom-color: #84b5b8;
+
+}
+.footer .logo-tail::after {
+    border-bottom-color: #f4f4f4;
+}
+.header-contacts-phone {
+    font-family: 'PF Regal Display Pro';
+    font-size: 185%;
+}
+.header-contacts a {
+    border-bottom: 1px dashed;
+    padding-bottom: 2px;
+}
+.label {
+    display: inline-block;
+    /*width: 160px;*/
+    /*height: 100px;*/
+    background: #fff;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+    border-radius: 3px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+.label span {
+    display: block;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+.banner {
+    background-repeat: no-repeat ;
+    background-position: top center;
+    background-size: 100% auto;
+}
+.banner-form {
+    background-position: left top;
+    background-size: auto 100%;
+}
+.banner-cover {
+    background-size: cover;
+}
+.banner-img {
+    position: relative;
+    right: -6.2%;
+}
+
+.product-icon {
+    margin-top: 50px;
+}
+
+.product-icon-item img {
+    max-height: 126px;
+}
+.product-icon-list .product-icon-item:not(:last-child) img {
+    margin-bottom: 25px;
+}
+
+.form {
+    border: 10px solid #f4f4f4;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0px #00000030;
+}
+.form-ice {
+    padding: 40px 65px;
+    position: relative;
+}
+.form-item + .form-item {
+    margin-top: 15px;
+}
+.form-item .title-6 {
+    margin-bottom: 40px;
+}
+.product-icon-block3 {
+
+}
+.product-icon-block3 .product-icon-item {
+    background-color: #fff;
+    border: 10px solid #f4f4f4;
+    padding: 30px 20px;
+
+}
+.product-icon-block3 .product-icon-item:last-child {
+    margin-top: 30px;
+}
+.product-icon-list {
+    margin-top: 70px;
+}
+.card-list {
+    margin-top: 60px;
+}
+.card-list-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.inform-block.cards-item-descr {
+    padding: 100px 0;
+}
+
+.cards-item-descr .label {
+    margin-top: 50px;
+}
+.cards-item-descr button {
+    margin-top: 55px;
+}
+.card-wrapper {
+    position: relative;
+    padding-bottom: 50px;
+}
+.card {
+    position: relative;
+    z-index: 1;
+}
+.card-wrapper.card {
+    margin: 0 auto;
+}
+.card-wrapper .icon-number {
+    position: absolute;
+    bottom: 126px;
+    left: 28px;
+    z-index: 3;
+}
+.card-wrapper .line {
+    border-bottom: 1px solid #dcdcdc;
+    width: 150px;
+    position: absolute;
+    z-index: 3;
+    bottom: 145px;
+    left: -120px;
+
+}
+.card-txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -20px 35px 45px #fff;
+    z-index: 2;
+    background-color: #fff;
+    padding: 0 30px;
+    height: 115px;
+}
+.list li span {
+    width: calc(100% - 60px);
+}
+.list li:not(:last-child) {
+    margin-bottom: 40px;
+}
+.list-line li:not(:last-child) {
+    margin-bottom: 70px;
+}
+.list-wrapper {
+    position: relative;
+    margin-top: 50px;
+}
+.book {
+    position: relative;
+}
+.book .label {
+    position: absolute;
+    bottom: 6%;
+    left: 28%;
+}
+.question-form {
+    background-image: url("../images/cards/card-block10.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.question-form .title-5 {
+    margin-bottom: 15px;
+}
+.course-list-item-header {
+    z-index: 3;
+    position: relative;
+    padding: 50px 0;
+}
+.course-list-item::before {
+    content: '';
+    background-color: #f3f7fa;
+    width: 100%;
+    height: 250px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.course-list-item:hover::before,
+.highlight.course-list-item::before {
+    background-image: linear-gradient(#acd6e6,#00abcc);
+}
+.course-list-item:hover .course-list-item-header,
+.highlight .course-list-item-header  {
+    color: #fff;
+}
+.course-list-item {
+    background-color: #fff;
+    padding: 0 10px 55px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px 0px #00000030;
+}
+.course-list-item .title-5 {
+    margin-bottom: 25px;
+}
+.course-list-item .btn {
+    background-color: transparent;
+    border: 1px solid #709b19;
+    margin-top: 40px;
+}
+.course-item-gift {
+    margin: 30px 0 55px;
+}
+.old-price {
+    color: #636363;
+}
+.course-list-item small {
+    margin-top: 30px;
+}
+.advertisment {
+    position: relative;
+    padding: 100px 0;
+}
+.advertisment .label {
+    position: absolute;
+    z-index: 3;
+    bottom: 44%;
+    right: 12%;
+    box-shadow: 0 0 10px 0px #00000030;
+}
+.advertisment img {
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    z-index: 2;
+}
+.form-dashed {
+    border: 1px dashed #636363;
+    padding: 40px 30px;
+}
+.footer {
+    padding: 50px 0 90px;
+    background-color: #f4f4f4;
+}
+
+.footer-part {
+    margin-top: 50px;
+}
