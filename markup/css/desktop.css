@@ -49,6 +49,9 @@
         width: 50%;
     }
 
+    .col-lg-11_5 {
+        width: 47.9166%;
+    }
     .col-lg-11 {
         width: 45.8333%;
     }
@@ -134,6 +137,9 @@
         font-size: 170%;
         line-height: 1.2;
     }
+    .title-5 + * {
+        margin-top: 30px;
+    }
     .title-6 {
         font-size: 140%;
     }
@@ -151,6 +157,9 @@
     .form {
         padding: 65px 50px;
     }
+    .checkout.form {
+        padding: 30px;
+    }
     .form-wrapper {
         margin: 40px 0 15px;
     }
@@ -161,12 +170,27 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    .course-list-item::before {
+        height: 250px;
+    }
+    .course-list-item .title-5 {
+        margin-bottom: 55px;
+    }
+
     .advertisment .label {
-        bottom: 44%;
-        right: 12%;
+        bottom: 49%;
+        right: 8%;
     }
     .advertisment img {
-        position: absolute;
-        z-index: 2;
+        bottom: 0;
+        right: 19%;
+        height: 93%;
+    }
+    .storage.label {
+        bottom: 343px;
+        right: 494px;
+    }
+    .storage.icon-number {
+        line-height: 1.1;
     }
 }

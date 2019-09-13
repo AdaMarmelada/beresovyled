@@ -3,7 +3,9 @@
     input, textarea {
         padding: 19px 35px;
     }
-
+    section.book {
+        padding: 0;
+    }
     .col-md-24 {
         width: 100%;
     }
@@ -38,6 +40,9 @@
 
     .col-md-12 {
         width: 50%;
+    }
+    .col-md-11_5 {
+        width: 47.9166%;
     }
 
     .col-md-11 {
@@ -119,6 +124,13 @@
 
     .title-4 + * {
         margin-top: 5px;
+    }
+    .title-5 {
+        font-size: 140%;
+        line-height: 1.2;
+    }
+    .title-5 + * {
+        margin-top: 30px;
     }
 
     .title-7 {
@@ -209,12 +221,30 @@
         height: 180px;
     }
     .advertisment img {
-        height: 60%;
+        height: 58%;
         bottom: 0;
         right: 16%;
     }
     .advertisment .label {
         bottom: 0;
         right: 8%;
+    }
+    .banner.tablet {
+        background-position: right;
+    }
+    .storage.label {
+        bottom: 876px;
+        right: 179px;
+    }
+    .storage.icon-number {
+        line-height: 1.8;
+    }
+    .checkout-book {
+        background-size: 55%;
+        background-position: center left;
+    }
+    .book .checkout.label {
+        left: 10%;
+        bottom: -3%;
     }
 }

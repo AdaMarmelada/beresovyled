@@ -92,6 +92,27 @@
     top: 80px;
     z-index: 3;
 }
+.storage.icon-ice-right {
+    right: 11%;
+    bottom: 31%;
+    top: unset;
+}
+.faq.icon-ice-right {
+    right: 2%;
+    bottom: 25%;
+    top: unset;
+}
+.storage.icon-ice-top_left {
+    left: 3%;
+    bottom: 28.5%;
+    z-index: 2;
+}
+.faq.icon-ice-top_left {
+    left: 9%;
+    bottom: 24%;
+    z-index: 2;
+}
+
 
 .icon-ice-top_left {
     background-image: url("../images/icons/icon-ice2.png");
@@ -133,7 +154,12 @@
 .icon-leaf-moving,
 .icon-ice-moving,
 .icon-leaf-top-left,
-.icon-cite {
+.icon-cite,
+.storage.icon-leaf-bottom,
+.faq.icon-leaf-bottom,
+.blue-ice-left-top,
+.blue-ice-left-bottom,
+.blue-ice-right {
     position: absolute;
 
 }
@@ -158,6 +184,12 @@
     top: -14px;
     z-index: 2;
 }
+.storage.icon-leaf-top {
+    right: -4px;
+    top: -26px;
+    height: 57px;
+    width: 54px;
+}
 .form .icon-leaf-bottom {
     background-image: url("../images/icons/icon-leaf-bottom.png");
     height: 46px;
@@ -165,6 +197,13 @@
     left: -7px;
     bottom: -30px;
     z-index: 2;
+}
+.faq.icon-leaf-bottom {
+    right: 21%;
+    bottom: 27.5%;
+    top: unset;
+    height: 50px;
+    width: 24px;
 }
 .cards-item-descr-txt .icon-ice-top_left {
     right: 0px;
@@ -200,6 +239,21 @@
     right: -158px;
     top: 40px;
     z-index: 4;
+}
+.storage.icon-leaf-bottom {
+    right: 12%;
+    bottom: 28.5%;
+    top: unset;
+    height: 50px;
+    width: 24px;
+}
+.storage.icon-leaf-moving{
+    left: 0%;
+    bottom: 28.8%;
+}
+.faq.icon-leaf-moving {
+    left: 3%;
+    bottom: 24.3%;
 }
 .icon-leaf-top-left {
     background-image: url("../images/icons/icon-leaf-bottom.png");
@@ -260,4 +314,36 @@
     width: 66px;
     top: 100px;
     right: 50px;
+}
+.blue-ice-left-top {
+    background-image: url("../images/icons/blue-ice-left-top.png");
+    width: 56px;
+    height: 58px;
+    left: -14%;
+    bottom: 66%;
+    z-index: 3;
+}
+.blue-ice-left-bottom {
+    background-image: url("../images/icons/blue-ice-left-bottom.png");
+    width: 54px;
+    height: 56px;
+    left: 0%;
+    bottom: -1%;
+    z-index: 3;
+}
+.blue-ice-right {
+    background-image: url("../images/icons/blue-ice-right.png");
+    width: 40px;
+    height: 40px;
+    right: 0%;
+    bottom: 49%;
+    z-index: 3;
+}
+.icon-mail {
+    background-image: url("../images/icons/gmail.png");
+    width: 40px;
+    height: 30px;
+}
+button .icon-mail {
+    margin-right: 15px;
 }
