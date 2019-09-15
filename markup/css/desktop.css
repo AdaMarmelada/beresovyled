@@ -146,10 +146,13 @@
     .title-7 {
         font-size: 285%;
     }
-
     .title-7 + * {
         margin-bottom: 60px;
     }
+    .title-8 {
+        font-size: 200%;
+    }
+
     .btn {
         padding: 25px 45px;
     }
@@ -178,6 +181,7 @@
     }
 
     .advertisment .label {
+        position: absolute;
         bottom: 49%;
         right: 8%;
     }
@@ -187,10 +191,39 @@
         height: 93%;
     }
     .storage.label {
-        bottom: 343px;
-        right: 494px;
+        position: absolute;
+        bottom: -71px;
+        right: 442px;
     }
     .storage.icon-number {
         line-height: 1.1;
+    }
+    .avatar {
+        top: -13%;
+        right: 45%;
+    }
+    .leaves_and_ice-left {
+        position: absolute;
+        bottom: 10%;
+        left: 22%;
+        background-image: url("../images/icons/leaves-ice-left.png");
+        width: 218px;
+        height: 415px;
+        z-index: -1;
+    }
+    .leaves_and_ice-right {
+        bottom: 10%;
+        right: 11%;
+    }
+
+    .arrow {
+        bottom: 100%;
+        left: 15%;
+    }
+    .min.arrow {
+        bottom: 90%;
+        left: 18%;
+        background-size: 70%;
+        background-repeat: no-repeat;
     }
 }

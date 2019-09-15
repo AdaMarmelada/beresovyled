@@ -75,6 +75,17 @@
     font-weight: bold;
     text-align: center;
 }
+
+.icon-ice-top,
+.icon-leaf-top,
+.icon-leaf-bottom,
+.icon-leaf-moving,
+.icon-ice-moving,
+.icon-leaf-top-left,
+.icon-cite,
+.blue-ice-left-top,
+.blue-ice-left-bottom,
+.blue-ice-right,
 .icon-ice-right,
 .icon-ice-top_left,
 .icon-ice-bottom_left {
@@ -92,34 +103,28 @@
     top: 80px;
     z-index: 3;
 }
-.storage.icon-ice-right {
-    right: 11%;
-    bottom: 31%;
-    top: unset;
-}
+
 .faq.icon-ice-right {
-    right: 2%;
-    bottom: 25%;
+    right: -10%;
+    bottom: 92%;
     top: unset;
 }
-.storage.icon-ice-top_left {
-    left: 3%;
-    bottom: 28.5%;
-    z-index: 2;
-}
-.faq.icon-ice-top_left {
-    left: 9%;
-    bottom: 24%;
-    z-index: 2;
-}
-
-
 .icon-ice-top_left {
     background-image: url("../images/icons/icon-ice2.png");
     left: -85px;
     bottom: 200px;
     height: 40px;
     width: 43px;
+}
+.storage.icon-ice-top_left {
+    left: -5%;
+    bottom: 80%;
+    z-index: 2;
+}
+.faq.icon-ice-top_left {
+    left: -3%;
+    bottom: 86%;
+    z-index: 2;
 }
 .card-wrapper-descr .icon-ice-top_left {
     left: 53px;
@@ -148,21 +153,6 @@
     height: 38px;
     width: 55px;
 }
-.form .icon-ice-top,
-.form .icon-leaf-top,
-.form .icon-leaf-bottom,
-.icon-leaf-moving,
-.icon-ice-moving,
-.icon-leaf-top-left,
-.icon-cite,
-.storage.icon-leaf-bottom,
-.faq.icon-leaf-bottom,
-.blue-ice-left-top,
-.blue-ice-left-bottom,
-.blue-ice-right {
-    position: absolute;
-
-}
 .form .icon-leaf-top-left {
     right: 10px;
     top: -50px;
@@ -190,6 +180,30 @@
     height: 57px;
     width: 54px;
 }
+.icon-leaf-bottom {
+    background-image: url("../images/icons/icon-leaf-bottom.png");
+    height: 76px;
+    width: 40px;
+    right: -158px;
+    top: 40px;
+    z-index: 4;
+}
+.card-list-item .icon-leaf-bottom {
+    height: 55px;
+    width: 30px;
+    right: 5px;
+    top: -30px;
+    transform: rotate(74deg);
+    left: unset;
+    bottom: unset;
+}
+.storage.icon-leaf-bottom {
+    right: -1%;
+    bottom: 77%;
+    top: unset;
+    height: 50px;
+    width: 24px;
+}
 .form .icon-leaf-bottom {
     background-image: url("../images/icons/icon-leaf-bottom.png");
     height: 46px;
@@ -200,7 +214,7 @@
 }
 .faq.icon-leaf-bottom {
     right: 21%;
-    bottom: 27.5%;
+    bottom: 112.5%;
     top: unset;
     height: 50px;
     width: 24px;
@@ -223,37 +237,13 @@
     z-index: 2;
     position: absolute;
 }
-.card-list-item .icon-leaf-bottom {
-    height: 55px;
-    width: 30px;
-    right: 5px;
-    top: -30px;
-    transform: rotate(74deg);
-    left: unset;
-    bottom: unset;
-}
-.icon-leaf-bottom {
-    background-image: url("../images/icons/icon-leaf-bottom.png");
-    height: 76px;
-    width: 40px;
-    right: -158px;
-    top: 40px;
-    z-index: 4;
-}
-.storage.icon-leaf-bottom {
-    right: 12%;
-    bottom: 28.5%;
-    top: unset;
-    height: 50px;
-    width: 24px;
-}
 .storage.icon-leaf-moving{
-    left: 0%;
-    bottom: 28.8%;
+    left: -11%;
+    bottom: 81.8%;;
 }
 .faq.icon-leaf-moving {
-    left: 3%;
-    bottom: 24.3%;
+    left: -9%;
+    bottom: 88.3%;
 }
 .icon-leaf-top-left {
     background-image: url("../images/icons/icon-leaf-bottom.png");
@@ -339,6 +329,14 @@
     bottom: 49%;
     z-index: 3;
 }
+.callback .blue-ice-right {
+    right: -18%;
+    bottom: 64%;
+}
+.callback .blue-ice-left-top {
+    left: -18%;
+    bottom: 105%;
+}
 .icon-mail {
     background-image: url("../images/icons/gmail.png");
     width: 40px;
@@ -346,4 +344,16 @@
 }
 button .icon-mail {
     margin-right: 15px;
+}
+.icon-course-product,
+.icon-course-gift {
+    width: 109px;
+    height: 85px;
+}
+
+.icon-course-product {
+    background-image: url("../images/icons/course-icon-1.png");
+}
+.icon-course-gift {
+    background-image: url("../images/icons/course-icon-2.png");
 }

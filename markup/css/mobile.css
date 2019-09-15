@@ -325,6 +325,7 @@
         padding: 0;
     }
     .advertisment .label {
+        position: absolute;
         bottom: -20px;
         right: 16%;
     }
@@ -346,8 +347,9 @@
         margin-top: 60px;
     }
     .storage.label {
-        bottom: 20%;
-        left: 17%;
+        position: absolute;
+        bottom: 25%;
+        left: 11%;
     }
     .storage-socials {
         margin: 20px 0;
@@ -356,8 +358,9 @@
         margin-bottom: 20px;
     }
     .faq.label {
-        bottom: 17.4%;
-        left: 17%;
+        position: absolute;
+        bottom: 26.4%;
+        left: 6%;
     }
     .checkout-book {
         background-image: url('../images/banners/book-mobile.png');
@@ -366,11 +369,26 @@
         background-position: 19%;
     }
     .book .checkout.label {
+        position: absolute;
         bottom: 69%;
         left: 15%;
         z-index: 2;
     }
     .form.checkout {
         padding: 35px 10px;
+    }
+    .course-product-descr {
+        margin: 20px 0;
+    }
+    .arrow {
+        bottom: 92%;
+        left: 56%;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        transform: scale(-1, 1);
+    }
+    .avatar {
+        top: -13%;
+        right: 34%;
     }
 }

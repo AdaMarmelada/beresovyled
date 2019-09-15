@@ -233,8 +233,9 @@
         background-position: right;
     }
     .storage.label {
-        bottom: 876px;
+        bottom: -74px;
         right: 179px;
+        position: absolute;
     }
     .storage.icon-number {
         line-height: 1.8;
@@ -246,5 +247,24 @@
     .book .checkout.label {
         left: 10%;
         bottom: -3%;
+    }
+    .avatar {
+        top: -13%;
+        right: 42%;
+    }
+    .leaves_and_ice-left {
+        bottom: 10%;
+        left: 11%;
+    }
+    .leaves_and_ice-right {
+        bottom: 10%;
+        right: -9%;
+    }
+    .arrow {
+        bottom: 89%;
+        left: 9%;
+        background-size: 70%;
+        background-repeat: no-repeat;
+
     }
 }
