@@ -357,3 +357,13 @@ button .icon-mail {
 .icon-course-gift {
     background-image: url("../images/icons/course-icon-2.png");
 }
+.icon-like{
+    background-image: url("../images/icons/like.png");
+    width: 40px;
+    height: 30px;
+}
+.icon-message{
+    background-image: url("../images/icons/message.png");
+    width: 40px;
+    height: 30px;
+}

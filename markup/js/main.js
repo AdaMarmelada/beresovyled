@@ -20,4 +20,10 @@ $(document).ready(function(){
     })
     //end
 
+    //modules
+    if(typeof(obSlider) == "object"){
+        obSlider.init();
+    }
+    //end
+
 })

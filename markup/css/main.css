@@ -72,7 +72,7 @@ input, select, textarea, button{
     -moz-appearance: none;
 
 }
-button, input {
+button, input, .btn {
     border-radius: 40px;
 }
 input {
@@ -99,7 +99,8 @@ button{
 }
 .btn.green:hover,
 .course-list-item .btn:hover,
-.highlight .btn {
+.highlight .btn,
+.btn.grid_list-more:hover {
     background-image: linear-gradient(#709b19, #b4d24f);
     color: #fff;
 }
@@ -569,4 +570,110 @@ section {
 
 .footer-part {
     margin-top: 50px;
+}
+
+.slick-slide{
+    float: left;
+}
+.slick-list{
+    overflow: hidden;
+}
+.docs_slider{
+    position: relative;
+    border: 1px solid #848484;
+    margin: 0 auto;
+}
+.docs_slider-nav{
+
+}
+.docs_slider-nav-item{
+    float: none;
+}
+.docs_slider-nav-img{
+    margin: 0 auto 10px;
+    border: 1px solid #848484;
+}
+.docs_slider-nav .slick-slide:not(.slick-active) .docs_slider-nav-img{
+    opacity: 0.3;
+}
+.docs_slider-item,
+.docs_slider-nav-img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-color: #fff;
+}
+.slick-dots{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+.grid_list{
+    margin: 0 -5px;
+}
+.grid_list-item{
+    position: relative;
+    flex: 0 0 calc(33.3333% - 10px);
+    background-color: #fff;
+    margin: 5px;
+    padding: 40px 60px;
+    border-radius: 5px;
+    min-height: 400px;
+    transition-property: box-shadow, flex;
+    transition-duration: .3s;
+}
+.grid_list-item.shadow{
+    box-shadow: 0 0 10px 0px #b9b7b7;
+}
+.grid_list-item.big{
+    flex: 0 0 calc(66.6666% - 10px);
+    box-shadow: inset 0 0 0px 1000px rgba(0,0,0,0.5);
+    color: #fff;
+}
+.grid_list-item:not(.big):not(.shadow):hover{
+    box-shadow: inset 0 0 0px 1000px rgba(0,0,0,0.5);
+    color: #fff;
+}
+.grid_list-item.big .grid_list-bottom{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    right: 60px;
+}
+.grid_list-item:not(.big) .grid_list-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px 0 40px;
+    border-radius: 0px 0px 5px 5px;
+    transition-property: left, right;
+    transition-duration: .3s;
+}
+.grid_list-item:not(.big):hover .grid_list-bottom{
+    background-color: transparent;
+    left: 10px;
+    right: 10px;
+}
+.grid_list-item:not(.big):not(.shadow) .grid_list-more-wrapper{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right:0;
+    opacity: 0;
+    transition: opacity .3s;
+}
+.grid_list-item:not(.big):not(.shadow):hover .grid_list-more-wrapper{
+    opacity: 1;
+}
+.grid_list-title{
+
+}
+.grid_list-more{
+    border: 1px solid;
+    color: #fff;
+}
+.grid_list-more:hover{
+    border-color: #709b19;
 }
