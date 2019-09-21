@@ -26,4 +26,7 @@ $(document).ready(function(){
     }
     //end
 
+    //mask-tel
+    $("[type = 'tel']").mask("+7(999) 999-9999");
+
 })

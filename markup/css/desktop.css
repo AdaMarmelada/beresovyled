@@ -173,6 +173,9 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    .course-list {
+        justify-content: space-around;
+    }
     .course-list-item::before {
         height: 250px;
     }
@@ -182,13 +185,13 @@
 
     .advertisment .label {
         position: absolute;
-        bottom: 49%;
-        right: 8%;
+        bottom: 18%;
+        right: 4%;
     }
     .advertisment img {
-        bottom: 0;
-        right: 19%;
-        height: 93%;
+        bottom: -60px;
+        right: 21%;
+        height: 100%;
     }
     .storage.label {
         position: absolute;

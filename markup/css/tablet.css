@@ -221,13 +221,13 @@
         height: 180px;
     }
     .advertisment img {
-        height: 58%;
-        bottom: 0;
-        right: 16%;
+        height: 74%;
+        bottom: -60px;
+        right: 21%;
     }
     .advertisment .label {
-        bottom: 0;
-        right: 8%;
+        bottom: -15%;
+        right: 4%;
     }
     .banner.tablet {
         background-position: right;
